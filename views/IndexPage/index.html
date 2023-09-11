@@ -1,0 +1,26 @@
+<!doctype html>
+{{define "IndexPage"}}
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Golang Web</title>
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <style>
+        .slider_image{
+            height: 700px !important;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+{{template "header"}}
+
+
+{{template "content"}}
+
+{{template "footer"}}
+<script src="/assets/js/bootstrap.bundle.min.js"  crossorigin="anonymous"></script>
+</body>
+</html>
+{{end}}
